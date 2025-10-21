@@ -14,3 +14,7 @@ Screenshots and videos of projects I worked on
 
 https://github.com/user-attachments/assets/1a7f8b1d-0b9e-4b99-8ea9-20da6d572776
 
+
+
+https://github.com/user-attachments/assets/329be3ad-5dfa-44ef-b3b7-79155bbd378d
+
