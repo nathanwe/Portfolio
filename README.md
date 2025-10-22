@@ -2,6 +2,8 @@
 Screenshots and videos of projects I've worked on.
 
 # Burn Painter
+Extended burn treatment simulator in Unreal that enabled medical teachers to implement virtual scenarios for treating burn patients. Created a burn editor that allowed them to specify the types, locations, and extents of burns themselves instead of relying on developers to do so.
+
 <details open>
 <summary>Burn Painter Demo Video</summary>
 
@@ -36,7 +38,8 @@ Screenshots
 </details>
 
 
-# Chembio (gas leak simulation)
+# Chembio
+Gas leak simulation with time travel
 Screenshots
 <details>
 <summary>Screenshot in the Simulation, Featuring the Time Controls on the Bottom</summary>
