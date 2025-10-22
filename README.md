@@ -39,11 +39,11 @@ Screenshots
 # Chembio (gas leak simulation)
 Screenshots
 <details>
-<summary>Screenshot in the simulation, featuring the time controls on the bottom</summary>
+<summary>Screenshot in the Simulation, Featuring the Time Controls on the Bottom</summary>
 <img width="2552" height="1515" alt="image" src="https://github.com/user-attachments/assets/7a1b5c33-d951-4780-ba3f-e2d8598494ef" />
 </details>
 
 <details>
-<summary>code sample of the tick type core</summary>
+<summary>Code Sample of the Tick Type Core</summary>
 <img width="1892" height="962" alt="image" src="https://github.com/user-attachments/assets/a27d3ed2-df87-4218-af86-3aaf230b2d04" />
 </details>
