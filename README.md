@@ -23,8 +23,8 @@ https://github.com/user-attachments/assets/8d04d320-d29c-4783-982a-d51fedfe18e7
 <img width="1832" height="453" alt="image" src="https://github.com/user-attachments/assets/58445c25-0fbb-4e38-a84c-fbea17ab417f" />
 <img width="1708" height="436" alt="image" src="https://github.com/user-attachments/assets/4a084acc-a0cd-465b-95b1-7206d7f27a1a" />
 <img width="1474" height="328" alt="image" src="https://github.com/user-attachments/assets/dc2fdddb-13c7-4b69-bf4f-8a7eb8558bed" />
-<details>
 </details>
+<details>
 <summary>selecting the burn texture in the senario editor</summary>
 <img width="2559" height="1481" alt="image" src="https://github.com/user-attachments/assets/adbe706f-124a-4c4e-b9f7-ba83d9f4290c" />
 <details>
