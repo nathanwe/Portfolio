@@ -39,7 +39,7 @@ Screenshots
 # Chembio (gas leak simulation)
 Screenshots
 <details>
-<summary>screenshot in the game, featuring the time controls on the bottom</summary>
+<summary>Screenshot in the simulation, featuring the time controls on the bottom</summary>
 <img width="2552" height="1515" alt="image" src="https://github.com/user-attachments/assets/7a1b5c33-d951-4780-ba3f-e2d8598494ef" />
 </details>
 
