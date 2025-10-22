@@ -1,5 +1,5 @@
 # Portfolio
-Screenshots and videos of projects I worked on
+Screenshots and videos of projects I've worked on
 
 # Burn Painter
 <details open>
