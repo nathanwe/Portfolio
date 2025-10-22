@@ -20,6 +20,58 @@ selecting the burn texture in the senario editor
 the final training app (censored)
 <img width="1896" height="1074" alt="image" src="https://github.com/user-attachments/assets/16f30745-bac0-4c90-b525-c84c68db947d" />
 
+Chembio
+the in-game. note the time controls on the bottom
+<img width="2552" height="1515" alt="image" src="https://github.com/user-attachments/assets/7a1b5c33-d951-4780-ba3f-e2d8598494ef" />
 
+code sample of the tick type core
+void UTimelineImplementation::Tick(float DeltaTime)
+{
+	SCOPE_CYCLE_COUNTER(STAT_Other);
+	if (GetPlaybackStatus() == EPlaybackStatus::EPS_PlaybackRecording)
+	{
+		if (UTimelineSubsystem::GetTickType() == ETickType::ETT_Timer)
+		{
+			// Ensure our Timer is properly in place. If it is, it will handle calling SimulationStep()
+			if (!bIsBoundToSimStep)
+			{
+				//UE_LOG(LogTemp, Log, TEXT("Tick function refresh sim timer"));
+				RefreshSimulationStepTimer();
+			}
+		}
+		else if (UTimelineSubsystem::GetTickType() == ETickType::ETT_Loop)
+		{
+			BankedTime = FMath::Max(BankedTime, SimRate);
+			BankedTime += (DeltaTime * InternalTimeDilation);
+	
+			float framesPerFrame = 0;
+			const double BeginTime = FPlatformTime::Seconds();
+			while (BankedTime >= SimRate && BeginTime + MaxTimeInLoop > FPlatformTime::Seconds()) //If there is still banked time to process && if the frame hasn't taken too long.)
+			{
+				BankedTime -= SimRate;
+				SimulationStep(SimRate);
+				framesPerFrame++;
+			}
+			//SET_FLOAT_STAT(framesPerFrame, frames)
+			FramesPerFrameRollingAverage = FramesPerFrameRollingAverage * 0.9 + framesPerFrame * 0.1;
+		}
+		else
+		{
+			//UE_LOG(LogTemp, Log, TEXT("Regular Tick Enabled"));
+			InternalSecondsPassed += (DeltaTime * InternalTimeDilation);
+		}
+	}
+	PostTick(DeltaTime);
+}
 
+void UTimelineImplementation::SimulationStep(float deltaTime)
+{
+	if (!IsTickable()) return;
+
+	InternalSecondsPassed += deltaTime;
+	InternalSimulationStep.Execute(SimRate);
+	//UE_LOG(LogTemp, Log, TEXT("Simulation Tick Enabled: %f"), deltaTime);
+	// Add pre/post step delegates? Or just regular + post?
+	// May need something like this to ensure values update before DB syncs
+}
 
