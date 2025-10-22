@@ -28,6 +28,7 @@ https://github.com/user-attachments/assets/8d04d320-d29c-4783-982a-d51fedfe18e7
 <summary>selecting the burn texture in the senario editor</summary>
 <img width="2559" height="1481" alt="image" src="https://github.com/user-attachments/assets/adbe706f-124a-4c4e-b9f7-ba83d9f4290c" />
 <details>
+</details>
 <summary>the final training app (censored)</summary>
 <img width="1896" height="1074" alt="image" src="https://github.com/user-attachments/assets/16f30745-bac0-4c90-b525-c84c68db947d" />
 </details>
