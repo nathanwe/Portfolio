@@ -1,5 +1,5 @@
 # Portfolio
-Screenshots and videos of projects I've worked on
+Screenshots and videos of projects I've worked on.
 
 # Burn Painter
 <details open>
@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/8d04d320-d29c-4783-982a-d51fedfe18e7
 </details>
 Screenshots
 <details>
-<summary>The Brush Materiel Blueprint</summary>
+<summary>The Brush Material Blueprint</summary>
 <img width="2355" height="1227" alt="image" src="https://github.com/user-attachments/assets/522720fa-9c0b-4369-9303-6b3469c6092a" />
 <img width="2057" height="1221" alt="image" src="https://github.com/user-attachments/assets/0f1e890e-d272-49b1-868c-e10453b67419" />
 </details>
@@ -29,8 +29,8 @@ Screenshots
 <details>
 <summary>Selecting the Burn Texture in the Senario Editor</summary>
 <img width="2559" height="1481" alt="image" src="https://github.com/user-attachments/assets/adbe706f-124a-4c4e-b9f7-ba83d9f4290c" />
-<details>
 </details>
+<details>
 <summary>The Final Training App (censored)</summary>
 <img width="1896" height="1074" alt="image" src="https://github.com/user-attachments/assets/16f30745-bac0-4c90-b525-c84c68db947d" />
 </details>
