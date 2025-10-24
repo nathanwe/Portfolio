@@ -38,7 +38,7 @@ Screenshots
 </details>
 
 
-# CBVR2
+# ChemBio in Virtual Reality 2
 Gas leak simulation with time travel
 
 Screenshots
