@@ -38,7 +38,7 @@ Screenshots
 </details>
 
 
-# Chembio
+# CBVR2
 Gas leak simulation with time travel
 
 Screenshots
